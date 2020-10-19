@@ -1,0 +1,13 @@
+|badge1| |badge2| |badge3|
+
+Web addons for Odoo
+===================
+
+This project aims to deal with modules related to the webclient of Odoo. You'll find modules that:
+
+- Add facilities to the UI
+- Add widgets
+- Ease the import/export features
+- Generally add clientside functionality
+
+
