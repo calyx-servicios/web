@@ -1,0 +1,32 @@
+<odoo>
+  <data>
+    <record model="ir.ui.menu" id="mail.mail_channel_menu_root_chat">
+        <field name="active">False</field>
+    </record>
+    <record model="ir.ui.menu" id="calendar.mail_menu_calendar">
+        <field name="active">False</field>
+    </record>
+    <record model="ir.ui.menu" id="crm.crm_menu_root">
+        <field name="active">False</field>
+    </record>
+    <record model="ir.ui.menu" id="utm.menu_link_tracker_root">
+        <field name="active">False</field>
+    </record>
+    <record model="ir.ui.menu" id="stock.menu_stock_root">
+        <field name="active">False</field>
+    </record>
+    <record model="ir.ui.menu" id="base.menu_board_root">
+        <field name="active">False</field>
+    </record>
+
+    <record  id="account.account_invoices" model="ir.actions.report" > 
+        <field name="binding_model_id" eval="False"/>
+    </record>
+
+
+    <record  id="account.account_invoices_without_payment" model="ir.actions.report" > 
+        <field name="binding_model_id" eval="False"/>
+    </record>
+
+  </data>
+</odoo> 
