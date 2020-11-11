@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="login_layout" inherit_id="web.login_layout">
+        <xpath expr="//t[@t-if='not disable_database_manager']" position="replace">
+
+        </xpath>
+        <xpath expr="//a[@target='_blank']" position="replace">
+<!--             <a href="https://www.calyxservicios.com.ar" target="_blank">www.calyxservicios.com.ar</a> -->
+        </xpath>
+    </template>
+</odoo>
+
